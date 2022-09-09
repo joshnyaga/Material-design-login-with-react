@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+.login-wrapper {
+  width: 35%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem;
+  position: absolute;
+  top: 10vh;
+  left: 15%;
+  z-index: 100;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.form {
+  padding: 3rem 0;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+}
+.input-group label {
+  color: #333333;
+  padding: 0.8rem 0;
+  font-size: 0.9em;
+}
+.input-group input,
+.input-group input::placeholder {
+  padding: 0.8rem 0;
+  font-size: 0.9em;
+  opacity: 0.54;
+}
+.input-group input {
+  border-bottom: 1px solid;
+  opacity: 0.44;
+  width: 100%;
+}
+.input-group svg {
+  position: absolute;
+  top: 3.5rem;
+  right: 0;
+}
+.imageCircle {
+  position: absolute;
+  top: -15rem;
+  width: 40%;
+  left: -15%;
+  z-index: 10;
+}
+
+.imageTriangle {
+  position: absolute;
+  top: 10rem;
+  width: 25%;
+  left: 60%;
+}
+@media (max-width: 978px) {
+  .login-wrapper {
+    width: 70%;
+  }
+}
+@media (max-width: 450px) {
+  .login-wrapper {
+    width: 90%;
+    left: 5%;
+  }
+}
